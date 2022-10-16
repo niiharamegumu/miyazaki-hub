@@ -15,5 +15,6 @@ export const members: Member[] = [
     twitterUsername: "lmgm_m",
     githubUsername: "niiharamegumu",
     websiteUrl: "https://megumu.me/",
+    jobWebsiteUrl: "https://tofulab.jp/",
   },
 ];

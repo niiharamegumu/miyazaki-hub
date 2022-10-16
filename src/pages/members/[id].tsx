@@ -1,6 +1,7 @@
 import { NextPage, GetStaticProps, GetStaticPaths } from "next";
 import { FaTwitter, FaGithub } from "react-icons/fa";
 import { AiOutlineLink } from "react-icons/ai";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 
 import { members } from "@members";
 import { PostItem, Member } from "@src/types";
@@ -27,6 +28,7 @@ const Page: NextPage<Props> = (props) => {
     twitterUsername,
     githubUsername,
     websiteUrl,
+    jobWebsiteUrl,
   } = props.member;
 
   return (
@@ -74,6 +76,14 @@ const Page: NextPage<Props> = (props) => {
                   <AiOutlineLink
                     className="member-header__link-icon"
                     aria-label={`Link to website`}
+                  />
+                </a>
+              )}
+              {jobWebsiteUrl && (
+                <a href={jobWebsiteUrl} className="member-header__link">
+                  <HiOutlineOfficeBuilding
+                    className="member-header__link-icon"
+                    aria-label={`Link to job website`}
                   />
                 </a>
               )}

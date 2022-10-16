@@ -10,6 +10,7 @@ export type Member = {
   githubUsername?: string;
   twitterUsername?: string;
   websiteUrl?: string;
+  jobWebsiteUrl?: string;
 };
 
 export type PostItem = {
