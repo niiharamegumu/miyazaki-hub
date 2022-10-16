@@ -2,7 +2,7 @@ export const config = {
   siteMeta: {
     title: "Miyazaki Engineer Hub",
     teamName: "Miyazaki Engineer Blogs",
-    description: "宮崎県で活躍するエンジニアたち",
+    description: "宮崎県で活動するエンジニアの集会所",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
@@ -14,8 +14,8 @@ export const config = {
       href: "/about",
     },
     {
-      title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
+      title: "Members",
+      href: "/members",
     },
   ],
 };
