@@ -17,4 +17,19 @@ export const members: Member[] = [
     websiteUrl: "https://megumu.me/",
     jobWebsiteUrl: "https://tofulab.jp/",
   },
+  {
+    id: "member_1",
+    name: "Sample",
+    role: "Engineer",
+    bio: "サンプル",
+    avatarSrc: "/avatars/member_1.jpg",
+    sources: [
+      "https://qiita.com/niihara_megumu/feed",
+    ],
+    includeUrlRegex: "qiita.com",
+    twitterUsername: "lmgm_m",
+    githubUsername: "niiharamegumu",
+    websiteUrl: "https://megumu.me/",
+    jobWebsiteUrl: "https://tofulab.jp/",
+  },
 ];
